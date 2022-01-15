@@ -170,4 +170,49 @@ button{
 }
 .s-icon{
     margin-left: 10px;
+    width: ;
+}
+/* Media Quarry */
+
+/* Mobile device */
+
+@media  only screen and (max-width:688px) {
+    section, .margin{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .half{
+        width: 60%;
+    }
+    .influencer-info{
+        width: 60%;
+        height: 60%;
+    }
+    .influencer-title{
+        font-size: 52px;
+        font-weight: 700;
+    }
+    .influencer-box{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .main-camera img{
+        width: 100%;
+        height: 100%;
+    }
+    .popular-collactions{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr)
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid dimgrey;
+}
+@media only screen and (max-width:990px) {
+    
+    
 }
