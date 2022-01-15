@@ -213,6 +213,7 @@ button{
         border: 2px solid dimgrey;
     }
 }
+/* For tab */
 @media only screen and (max-width:990px) {
     section, .margin{
         margin-left: 0px;
