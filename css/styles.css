@@ -198,8 +198,8 @@ button{
         flex-direction: column;
     }
     .main-camera img{
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
     }
     .popular-collactions{
         display: grid;
@@ -211,8 +211,42 @@ button{
         justify-content: center;
         align-items: center;
         border: 2px solid dimgrey;
+    }
 }
 @media only screen and (max-width:990px) {
-    
-    
+    section, .margin{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .half{
+        width: 50%;
+    }
+    .influencer-info{
+        width: 100%;
+        height: 100%;
+    }
+    .influencer-title{
+        font-size: 52px;
+        font-weight: 700;
+    }
+    .influencer-box{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .main-camera img{
+        width: 80%;
+        height: 80%;
+    }
+    .popular-collactions{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr)
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid dimgrey;
+    }
 }
